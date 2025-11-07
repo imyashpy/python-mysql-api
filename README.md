@@ -26,3 +26,21 @@ It demonstrates **CRUD (Create, Read, Update, Delete)** operations and helps you
 | Server | Uvicorn |
 
 ---
+
+---
+
+## 🗄️ Database Setup
+
+Before running the app, create a database and table in MySQL:
+
+```sql
+CREATE DATABASE yashtech;
+
+USE yashtech;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT
+);
+```
